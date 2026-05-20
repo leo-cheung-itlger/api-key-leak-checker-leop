@@ -1,0 +1,17 @@
+name: Pre-publish secret check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pre-publish-check:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run LEOP pre-publish check
+        shell: powershell
+        run: |
+          powershell -ExecutionPolicy Bypass -File ".\scripts\pre_publish_check.ps1" -Path "."
+

@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
+credentials.*
+config.local.*
+
+# Runtime / cache
+__pycache__/
+.pytest_cache/
+.cache/
+node_modules/
+dist/
+build/
+target/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
