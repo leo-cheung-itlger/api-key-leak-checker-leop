@@ -20,7 +20,7 @@
 - GitHub Agent Skills：已发布 `v1.0.0` release，可用 `gh skill preview` / `gh skill install`。
 - skills.sh / `npx skills`：可用 `npx skills add leo-cheung-itlger/api-key-leak-checker-leop -l --full-depth` 识别到 1 个 skill。
 - SkillsMD CLI：可用 `uvx skillsmd add leo-cheung-itlger/api-key-leak-checker-leop -l --full-depth` 识别到 1 个 skill。
-- Agent Skills CLI / SkillsMP：已用 `npx agent-skills-cli submit-repo leo-cheung-itlger/api-key-leak-checker-leop` 提交索引。
+- Agent Skills CLI / SkillsMP：已用 `npx agent-skills-cli submit-repo leo-cheung-itlger/api-key-leak-checker-leop` 提交索引，并可用 `npx agent-skills-cli market-search api-key-leak-checker-leop` 搜到。
 - skills.re：网页导入能识别 `skills/api-key-leak-checker-leop/SKILL.md`，提交后等待平台索引。
 
 发布前顺序：
