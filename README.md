@@ -62,6 +62,34 @@ api-key-leak-checker-leop
 skills/api-key-leak-checker-leop/
 ```
 
+## 安装方式
+
+GitHub Agent Skills:
+
+```powershell
+gh skill preview leo-cheung-itlger/api-key-leak-checker-leop api-key-leak-checker-leop
+gh skill install leo-cheung-itlger/api-key-leak-checker-leop api-key-leak-checker-leop
+```
+
+skills.sh / skills CLI:
+
+```powershell
+npx skills add leo-cheung-itlger/api-key-leak-checker-leop -l --full-depth
+npx skills add leo-cheung-itlger/api-key-leak-checker-leop -g -a codex -s api-key-leak-checker-leop --copy --full-depth
+```
+
+SkillsMD CLI:
+
+```powershell
+uvx skillsmd add leo-cheung-itlger/api-key-leak-checker-leop -l --full-depth
+```
+
+Agent Skills CLI / SkillsMP:
+
+```powershell
+npx agent-skills-cli install-url https://github.com/leo-cheung-itlger/api-key-leak-checker-leop
+```
+
 触发场景包括：
 
 - “帮我检查这个仓库有没有 API Key 泄漏”

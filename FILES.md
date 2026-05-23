@@ -15,6 +15,14 @@
 - `.github/workflows/pre-publish-check.yml`：GitHub Actions 自动审查流程。
 - `.gitignore`：默认阻止 `.env`、私钥和常见敏感文件入库。
 
+平台发布与安装：
+
+- GitHub Agent Skills：已发布 `v1.0.0` release，可用 `gh skill preview` / `gh skill install`。
+- skills.sh / `npx skills`：可用 `npx skills add leo-cheung-itlger/api-key-leak-checker-leop -l --full-depth` 识别到 1 个 skill。
+- SkillsMD CLI：可用 `uvx skillsmd add leo-cheung-itlger/api-key-leak-checker-leop -l --full-depth` 识别到 1 个 skill。
+- Agent Skills CLI / SkillsMP：已用 `npx agent-skills-cli submit-repo leo-cheung-itlger/api-key-leak-checker-leop` 提交索引。
+- skills.re：网页导入能识别 `skills/api-key-leak-checker-leop/SKILL.md`，提交后等待平台索引。
+
 发布前顺序：
 
 1. 运行 `scripts/pre_publish_check.ps1`。
