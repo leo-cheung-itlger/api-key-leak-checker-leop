@@ -56,6 +56,12 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\pre_publish_check.ps1" -Path
 api-key-leak-checker-leop
 ```
 
+正式 skill 包目录：
+
+```text
+skills/api-key-leak-checker-leop/
+```
+
 触发场景包括：
 
 - “帮我检查这个仓库有没有 API Key 泄漏”
@@ -69,4 +75,3 @@ api-key-leak-checker-leop
 这个工具不能保证发现所有秘密，也不能替你撤销已经泄漏的 key。只要密钥曾经公开出现过，请立刻去对应服务商后台撤销或轮换。
 
 我是新手，也是在边学边做。欢迎提 issue、给建议，也欢迎 star 鼓励一下。
-

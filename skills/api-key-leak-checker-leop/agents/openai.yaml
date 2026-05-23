@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Key Leak Checker LEOP"
+  short_description: "Check GitHub/API key leaks and guide safe remediation."
+  default_prompt: "Check this project or GitHub repository for possible API key leaks, summarize risk, and guide remediation."
